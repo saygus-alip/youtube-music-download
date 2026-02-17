@@ -1,8 +1,7 @@
-# PyCharm
+# IDE
 .idea/
+.vscode/
 *.iml
-*.iws
-*.ipr
 
 # Python
 __pycache__/
@@ -15,6 +14,12 @@ venv/
 *.egg-info/
 dist/
 build/
+
+# Project specific
+downloads/
+.env
+.env.local
+*.log
 
 # OS
 .DS_Store
